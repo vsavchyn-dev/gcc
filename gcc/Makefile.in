@@ -1732,6 +1732,7 @@ OBJS = \
 	tree-loop-distribution.o \
 	tree-nested.o \
 	tree-nrv.o \
+	tree-prune.o \
 	tree-object-size.o \
 	tree-outof-ssa.o \
 	tree-parloops.o \

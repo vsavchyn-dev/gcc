@@ -465,6 +465,7 @@ extern gimple_opt_pass *make_pass_phiprop (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_tree_ifcombine (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_dse (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_nrv (gcc::context *ctxt);
+extern gimple_opt_pass *make_pass_prune (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_rename_ssa_copies (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_sink_code (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_fre (gcc::context *ctxt);
